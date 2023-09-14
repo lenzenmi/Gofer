@@ -1,0 +1,31 @@
+= Gofer
+
+== Disclaimer
+
+* The purpose here is to discuss a bit about how I approach architecture
+* I haven't put in the effort to weigh competing technology between cloud providers
+* I've done no performance or cost analysis
+
+== Systems Architecture
+
+I believe that architecture is about designing a system comprised of people and technology to achieve business goals.
+It's not just about drawing boxes and lines and reading technical specifications.
+
+== Approach
+
+* It's like pruning a hedge. 
+* It's iterative.
+* We can only ever know the architecture we wish we had now. 
+
+== Approach cont...
+
+1. Figure out where we are now (people and code)
+2. Figure out where we want to be (business goals, product discovery, tech-debt)
+3. Make a change
+4. Repeat
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
