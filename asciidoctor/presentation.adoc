@@ -84,4 +84,4 @@ Shoppers collect a bit of coin for the extra effort
 * A few Backend Workers (Node.js)
 
 === !
-At this point it's best to review either the system drawings and architecture decision record
+At this point it's best to review the system drawings and architecture decision record
