@@ -6,26 +6,73 @@
 * I haven't put in the effort to weigh competing technology between cloud providers
 * I've done no performance or cost analysis
 
-== Systems Architecture
+=== My Approach to Architecture
 
-I believe that architecture is about designing a system comprised of people and technology to achieve business goals.
-It's not just about drawing boxes and lines and reading technical specifications.
+[%step]
+* Is about designing how technology and people work together to achieve business goals
+* Is like pruning a hedge
+* Is iterative
 
-== Approach
+=== Steps
 
-* It's like pruning a hedge. 
-* It's iterative.
-* We can only ever know the architecture we wish we had now. 
-
-== Approach cont...
-
-1. Figure out where we are now (people and code)
-2. Figure out where we want to be (business goals, product discovery, tech-debt)
+[%step]
+1. Figure out where we want to be (business goals, product discovery, tech-debt)
+2. Figure out where we are now (people and code)
 3. Make a change
 4. Repeat
 
-[.notes]
---
-* tell anecdote
-* make a point
---
+== About Gofer
+
+=== !
+
+Gofer is a peer to peer personal shopper market place.
+Which aims to reduce our Carbon footprint.
+
+You can think of it as a combination of Insta-Cart, Varage Sale and Car Pooling.
+
+=== How it Works
+
+Users are able to ask shoppers already in a store to grab an extra item to their cart for them
+
+Shoppers collect a bit of coin for the extra effort
+
+== Problems To Solve
+
+=== Trust (Problems To Solve)
+
+* Users prepay for an order
+* Funds are released to a driver after delivery is confirmed by the User
+* Drivers can dispute an un-confirmed order that was delivered
+  * An audit trail of driver locations will be recorded
+  * Drivers will take pictures of delivery
+  * Drivers will upload receipts to prove purchase
+* Users who have several disputes filed against them will be banned
+* If an order is not fulfilled by a specific time, payment will be refunded to the User
+
+=== Status And Location Updates (Problems To Solve)
+
+* Users can see when an order has been accepted by a Driver
+* Users can see a Driver's progress
+
+=== Drivers Can Find Orders (Problems To Solve)
+
+* Will be searched by their current location
+* Have a link to the store's website listing the product and price
+* Able to see the drop-off point for an order
+* Able to see the delivery amount they will earn
+* Able to see special instructions
+
+=== Users Can Create Orders (Problems to Solve)
+
+* Can enter link to any online item
+* Can submit special instructions
+* 
+
+== The Process
+
+== 1. Where We Are Now
+
+[%step]
+* No existing software to evolve (net new)
+* No current employees
+* Budget to hire a half dozen employees until we can prove the concept
