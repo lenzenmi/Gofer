@@ -21,7 +21,7 @@
 3. Make a change
 4. Repeat
 
-== About Gofer
+== About Gofer (Step 1)
 
 === !
 
@@ -68,11 +68,20 @@ Shoppers collect a bit of coin for the extra effort
 * Can submit special instructions
 * 
 
-== The Process
-
-== 1. Where We Are Now
+== Where We Are Now (Step 2)
 
 [%step]
 * No existing software to evolve (net new)
 * No current employees
 * Budget to hire a half dozen employees until we can prove the concept
+
+== Initial Design (Step 3)
+
+* A Web App (React.js)
+* A Mobile App (React Native)
+* A Monolithic Backend Web Service (Node.js)
+* A message bus (Azure Event Hubs)
+* A few Backend Workers (Node.js)
+
+=== !
+At this point it's best to review either the system drawings and architecture decision record

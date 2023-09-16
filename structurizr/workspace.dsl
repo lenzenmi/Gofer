@@ -143,6 +143,7 @@ workspace {
             exclude "driverApp -> backEnd"
             exclude "webApp -> backend"
             exclude externalSSO
+            autoLayout lr
         }
 
         container driverApp {
