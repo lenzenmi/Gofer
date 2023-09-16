@@ -3,7 +3,7 @@
 ## Presentation
 
 ### Running
-Requires reveal.js which is included as a sub repo.
+Requires reveal.js which is included as a submodule.
 
 Thus you must clone this repository locally and either pass `--recurse-submodules` to git clone do `git submodule init && git submodule update` after cloning
 
