@@ -3,7 +3,11 @@
 ## Presentation
 
 ### Running
-Open [link](asciidoctor/presentation.html) in web browser
+Requires reveal.js which is included as a sub repo.
+
+Thus you must clone this repository locally and either pass `--recurse-submodules` to git clone do `git submodule init && git submodule update` after cloning
+
+Open `asciidoctor/presentation.html` in web browser
 
 ### Rebuilding
 Requires Docker and Windows Bash
